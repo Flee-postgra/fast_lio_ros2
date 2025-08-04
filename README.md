@@ -1,3 +1,11 @@
+The original version was a ROS1 solution, which was then modified into a ROS2 version using the MID360 radar, but the actual operating effect needs to be improved.
+
+原版是ROS1的方案，然后修改成ROS2的版本，用的MID360的雷达，但是实际运行效果有待提高。
+
+
+
+
+
 ## Related Works and Extended Application
 
 **SLAM:**
