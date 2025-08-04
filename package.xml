@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schemaLocation="http://download.ros.org/schema/package_format3.xsd"?>
+<package format="3">
+  <name>fast_lio</name>
+  <version>2.0.0</version>
+
+  <description>
+    This is a modified version of FAST-LIO for ROS2, which is based on the original algorithm
+    described in the following paper:
+    Wei Xu and Fu Zhang. FAST-LIO: A Fast, Robust LiDAR-inertial Odometry Package by Tightly-Coupled Iterated Kalman Filter.
+    IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 3317-3324, 2021.
+  </description>
+
+  <maintainer email="dev@livoxtech.com">claydergc</maintainer>
+
+  <license>BSD</license>
+
+  <author email="zhangji@cmu.edu">Ji Zhang</author>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>pcl_ros</depend>
+  <depend>pcl_conversions</depend>
+  <depend>livox_ros_driver2</depend>
+  <depend>rosidl_default_generators</depend>
+  <depend>eigen3_cmake_module</depend>
+  
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
